@@ -12,3 +12,5 @@ Route::get('/prueba', function()
 });
 
 Route::controller('personal','PersonalController');
+
+Route::controller('','PersonalController');
