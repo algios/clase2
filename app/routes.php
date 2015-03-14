@@ -11,6 +11,12 @@ Route::get('/prueba', function()
 	return View::make('prueba');
 });
 
+Route::get('/test', function()
+{
+	return View::make("index");
+});
+
+
 Route::controller('personal','PersonalController');
 
-Route::controller('Clase2','Clase2Controller');
+Route::controller('clase','Clase2Controller');

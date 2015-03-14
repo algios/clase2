@@ -2,7 +2,7 @@
 
 class Clase2Controller extends BaseController{
     
-    public function getCSS() {
+    public function getCss() {
             return View::make('index');
     }
 }
